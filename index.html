@@ -46,15 +46,24 @@
 </head>
 
 <body class="layout-sticky-subnav layout-default">
+    <!--
+        <div class="preloader">
+            <div class="sk-bounce">
+                <div class="sk-bounce-dot"></div>
+                <div class="sk-bounce-dot"></div>
+            </div>
+        </div> -->
+
+    <!-- Header Layout -->
     <div class="mdk-header-layout js-mdk-header-layout">
         <!-- Header -->
-        <div class="fixed w-screen">
-            <div class="flex w-full mx-auto justify-between pt-2 items-center p-6 smd:p-3 smd:pt-1" id="default-navbar"
+        <div class=" w-screen">
+            <div class="flex w-full mx-auto justify-between pt-4 items-center p-8 smd:p-3 smd:pt-1" id="default-navbar"
                 data-primary>
                 <div class="flex items-center gap-6">
                     <div class="flex items-center gap-4 smd:gap-1">
                         <a href="./index.html" class="">
-                            <img class="w-[58px] h-[60px] smd:w-[40px] smd:h-[40px]" src="/img/talebee.png"
+                            <img class="w-[58px] h-[60px] smd:w-[40px] smd:h-[40px]" src="./img/talebee.png"
                                 alt="Talebee" />
                         </a>
                         <a href="./index.html" class="font-medium text-2xl smd:text-xl"> Talebee </a>
@@ -79,8 +88,8 @@
                     <div class="">
                         <a href="./login.html">Login</a>
                     </div>
-                    <div class="bg-black text-white p-5 rounded-[2.5em] hover:bg-[#00C2FF] hover:text-black smd:p-3">
-                        <a href="./register.html" class="">
+                    <div class="relative">
+                        <a href="./register.html" class="nav-btn-2 bg-black text-white p-5 rounded-[2.5em] smd:p-3">
                             Get Started-Free →
                         </a>
                     </div>
@@ -106,10 +115,10 @@
             </div>
         </div>
 
-     
+    
 
-        <script src="./js/app-settings.js"></script>
-        <script type="module" src="/main.js"></script>
+    <script src="./js/app-settings.js"></script>
+    <script type="module" src="/main.js"></script>
 </body>
 
 </html>
